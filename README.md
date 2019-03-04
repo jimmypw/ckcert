@@ -5,7 +5,6 @@ A small utility that checks certificate expiry dates. If there is less than half
 The exit status
 * exitOK      = 0
 * exitRENEW   = 1
-* exitEXPIRED = 2
 * exitERROR   = 3
 
 ## Usage
