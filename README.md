@@ -1,11 +1,15 @@
 # ckcert
 
-A small utility that checks certificate expiry dates. If there is less than half of the validity period remaining it will alert. 
+A small utility that checks certificate expiry dates.
 
 The exit status
-* exitOK      = 0
-* exitRENEW   = 1
-* exitERROR   = 3
+* OK      = 0
+* RENEW   = 1
+* ERROR   = 3
+
+## installation
+
+`go install github.com/jimmypw/ckcert`
 
 ## Usage
 
